@@ -22,6 +22,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { MatFormFieldModule } from '@angular/material';
+import { AboutUsComponent } from './components/about-us/about-us.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { MatFormFieldModule } from '@angular/material';
     RegisterComponent,
     LogInComponent,
     DashboardComponent,
+    AboutUsComponent,
   ],
   imports: [
     BrowserModule,
